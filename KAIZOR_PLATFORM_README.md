@@ -79,6 +79,24 @@ This includes:
 - suggesting next actions based on context
 - reducing hesitation in real operational flows
 
+### Natural language understanding and intent handling
+Kaizor is designed to recognize what the user actually wants, not just react to keywords.
+
+This includes:
+- interpreting intent across different phrasing styles
+- handling task-oriented and conversational requests
+- routing the request toward the most appropriate capability path
+- reducing the friction between expression and useful action
+
+### Knowledge retrieval and grounded answers
+Kaizor is built not only to “sound smart”, but to remain useful when answers need stronger grounding in available knowledge.
+
+This includes:
+- retrieving relevant context from available knowledge sources
+- grounding outputs in reusable information instead of isolated guesses
+- reducing repeated searching across documents and prior material
+- helping organizations turn knowledge into an operational asset
+
 ### Programming and technical assistance
 Kaizor can support technical thinking and software-oriented work where people need more than generic chat.
 
@@ -144,6 +162,8 @@ This includes:
 - expandable capability packs
 - the ability to support very different use cases without losing platform coherence
 
+This is one of Kaizor’s structural strengths: it can grow as a platform by adding capabilities without losing its core identity.
+
 ### General-purpose adaptability
 Kaizor is designed to be useful across different contexts rather than trapped inside one narrow category.
 
@@ -160,6 +180,11 @@ This includes:
 - reduced dependency on one working language
 - smoother user experience for mixed-language teams
 
+### Runtime language switching
+Kaizor is positioned to support dynamic language behavior during live interaction rather than forcing users into a fixed language mode.
+
+This matters in real teams where users naturally move between languages depending on context, audience, or task.
+
 ### Voice interaction
 Kaizor can support voice-first or voice-assisted usage where typing is inefficient or unnatural.
 
@@ -175,7 +200,7 @@ It can participate in workflows where visual inputs matter.
 This includes:
 - understanding visual scenes
 - interpreting screenshots and interface states
-- describing, classifying, and tracking visual context
+- describing, classifying, tracking, and structurally interpreting visual context
 - using visual evidence as part of a broader workflow
 
 This is important because many real-world workflows depend on what people see, not just what they type.
@@ -226,6 +251,14 @@ This includes:
 - guided workflow modes
 - flexible deployment patterns depending on the evaluation or use case
 
+### Background and always-available assistance
+Kaizor is designed for use cases where value increases when support is available continuously, not only when a single screen is open.
+
+This includes:
+- background assistance models
+- support for persistent operational presence
+- smoother movement between passive readiness and active interaction
+
 ## 🎯 Where Kaizor can be applied
 
 Because Kaizor is capability-driven rather than tied to a single department, it can be applied across a wide range of domains.
@@ -247,6 +280,12 @@ Because Kaizor is capability-driven rather than tied to a single department, it 
 - structured extraction
 - fast brief generation
 - insight discovery from scattered materials
+
+### Knowledge operations
+- internal knowledge retrieval
+- policy and process guidance
+- reusable institutional knowledge
+- team memory and continuity support
 
 ### Software and engineering workflows
 - programming assistance
@@ -281,6 +320,12 @@ Because Kaizor is capability-driven rather than tied to a single department, it 
 - knowledge-driven operating layers
 - organization-specific assistance systems
 
+### Multimodal work environments
+- visual review workflows
+- voice-assisted operations
+- mixed text, voice, and screenshot-based interaction
+- environments where people need to move naturally between different input styles
+
 ### Future domain packs and vertical applications
 Kaizor is also well positioned for domain-specific packaging across industries where context, workflow, trust, and repeated decision-making matter.
 
@@ -310,6 +355,10 @@ Potential opportunity areas include:
 - machine-learning-assisted decision systems
 - domain-specific expert copilots
 - enterprise orchestration layers across teams and tools
+- knowledge management platforms
+- multilingual service environments
+- AI-driven technical support systems
+- continuously available background assistants
 
 In other words, Kaizor is not limited by one industry.
 It is limited only by whether a workflow suffers from fragmentation, repetition, knowledge loss, or low-trust execution.
@@ -360,20 +409,22 @@ flowchart TB
 
   subgraph G[Kaizor capability areas]
     G1[Conversational intelligence]
-    G2[Programming and technical assistance]
-    G3[Research and analytical support]
-    G4[Knowledge understanding and retrieval]
-    G5[Workflow orchestration]
-    G6[Governed automation]
-    G7[Tool use and operational action]
-    G8[Skills ecosystem]
-    G9[Multilingual interaction]
-    G10[Voice interaction]
-    G11[Computer vision]
-    G12[Memory and adaptive behavior]
-    G13[Learning and machine-learning-driven improvement]
-    G14[Safety and permissions]
-    G15[Monitoring and runtime flexibility]
+    G2[Natural language understanding]
+    G3[Reasoning and decision support]
+    G4[Programming and technical assistance]
+    G5[Knowledge retrieval and synthesis]
+    G6[Research and analytical support]
+    G7[Workflow orchestration]
+    G8[Governed automation]
+    G9[Tool use and operational action]
+    G10[Skills ecosystem]
+    G11[Multilingual interaction and runtime language switching]
+    G12[Voice interaction]
+    G13[Computer vision and visual understanding]
+    G14[Memory and adaptive behavior]
+    G15[Learning and machine-learning-driven improvement]
+    G16[Safety, permissions, and trusted execution]
+    G17[Monitoring, runtime flexibility, and background assistance]
   end
 ```
 
@@ -401,10 +452,12 @@ flowchart LR
   U[User] --> T[Text interaction]
   U --> V[Voice interaction]
   U --> I[Visual input]
+  U --> L[Live multilingual interaction]
 
   T --> K[Kaizor Platform]
   V --> K
   I --> K
+  L --> K
 
   K --> O1[Understanding]
   K --> O2[Guidance]
@@ -432,7 +485,25 @@ flowchart LR
   B --> C[Useful outputs]
   C --> D[Stored context and reusable knowledge]
   D --> E[Improved continuity]
-  E --> B
+  E --> F[Adaptive improvement]
+  F --> B
+```
+
+## Runtime and operating modes
+
+```mermaid
+flowchart LR
+  U[User needs] --> M1[Interactive mode]
+  U --> M2[Voice-first mode]
+  U --> M3[Background assistance mode]
+  U --> M4[Guided workflow mode]
+
+  M1 --> P[Kaizor Platform]
+  M2 --> P
+  M3 --> P
+  M4 --> P
+
+  P --> O[Flexible support based on context]
 ```
 
 ## Where the CyberSec Trial sits
