@@ -77,4 +77,4 @@ If you run into an issue, please send:
 ## Kaizor Platform (separate docs)
 
 For full Kaizor Platform documentation (capabilities, real-world problems, and diagrams), see:
-- `KAIZOR_PLATFORM/README.md`
+- `KAIZOR_PLATFORM_README.md`
