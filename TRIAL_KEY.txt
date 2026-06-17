@@ -1,0 +1,11 @@
+CyberSec Trial Key
+=================
+
+Trial duration: 48 hours (starts at activation time)
+
+Trial Key: TRIAL-123
+
+Notes:
+- Use the same key for all customers in this release.
+- The application enforces expiry after activation.
+
