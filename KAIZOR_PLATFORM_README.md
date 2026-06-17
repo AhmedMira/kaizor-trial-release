@@ -58,6 +58,9 @@ Weak automation creates little value. Reckless automation destroys trust.
 
 Kaizor is not a single-purpose application. It is a broad AI platform with multiple capability layers that can be combined based on the workflow, domain, and level of operational maturity.
 
+Some of these capabilities are already visible in practical workflows today.
+Others represent the natural expansion path of the platform as it matures into a wider operational AI system.
+
 ### Conversational intelligence
 Kaizor supports natural interaction that feels closer to working with a capable operational partner than a static interface.
 
@@ -76,6 +79,17 @@ This includes:
 - suggesting next actions based on context
 - reducing hesitation in real operational flows
 
+### Programming and technical assistance
+Kaizor can support technical thinking and software-oriented work where people need more than generic chat.
+
+This includes:
+- helping break down technical problems
+- assisting with implementation thinking and solution paths
+- supporting debugging-oriented reasoning
+- helping teams move faster through engineering-heavy workflows
+
+This matters because a large part of modern work is now software-shaped, even outside pure engineering teams.
+
 ### Knowledge understanding and retrieval
 Kaizor can work with large bodies of information and make them easier to use in practice.
 
@@ -84,6 +98,15 @@ This includes:
 - extracting key facts, risks, and action points
 - surfacing relevant knowledge at the right time
 - reducing time lost to searching and re-reading
+
+### Research and analytical support
+Kaizor can help transform scattered information into structured insight.
+
+This includes:
+- comparing options and perspectives
+- identifying patterns across multiple inputs
+- building concise analytical summaries
+- reducing the effort required to turn information into usable judgment
 
 ### Workflow orchestration
 Kaizor is designed for real work, not just isolated prompts.
@@ -103,6 +126,15 @@ This includes:
 - making actions more visible and reviewable
 - enabling safer adoption in organizational settings
 
+### Tool use and operational action
+Kaizor is positioned to work not only as an “answering layer” but also as an action-oriented layer.
+
+This includes:
+- interacting with connected tools and systems
+- moving from suggestion to assisted execution
+- supporting repeatable operational actions
+- helping organizations bridge the gap between insight and follow-through
+
 ### Skills ecosystem
 Kaizor is designed as a capability platform, meaning it can be extended across many task types and service tracks.
 
@@ -111,6 +143,14 @@ This includes:
 - domain-specific workflows
 - expandable capability packs
 - the ability to support very different use cases without losing platform coherence
+
+### General-purpose adaptability
+Kaizor is designed to be useful across different contexts rather than trapped inside one narrow category.
+
+This includes:
+- adapting to business, operational, technical, and analytical workflows
+- supporting both specialist and cross-functional use
+- serving as a platform foundation for many future service tracks
 
 ### Multilingual interaction
 Kaizor is designed for environments where language flexibility matters.
@@ -149,13 +189,15 @@ This includes:
 - better reuse of prior outcomes
 - less “starting from zero” in recurring operational work
 
-### Learning and continuous improvement
-Kaizor is positioned to improve its usefulness over time through repeated usage, stronger pattern recognition, and better adaptation to recurring workflows.
+### Learning, machine learning, and continuous improvement
+Kaizor is positioned to improve its usefulness over time through repeated usage, stronger pattern recognition, adaptive behavior, and machine-learning-driven refinement where appropriate.
 
 This includes:
 - identifying repeated patterns
 - improving consistency over time
 - supporting a path toward smarter assistance at scale
+- enabling smarter classification, prioritization, and adaptation
+- supporting the evolution from reactive assistance to more predictive intelligence
 
 ### Safety, permissions, and trusted execution
 Kaizor is designed for real operational environments where not every action should be immediate or unrestricted.
@@ -206,6 +248,13 @@ Because Kaizor is capability-driven rather than tied to a single department, it 
 - fast brief generation
 - insight discovery from scattered materials
 
+### Software and engineering workflows
+- programming assistance
+- implementation support
+- engineering analysis
+- debugging-oriented reasoning
+- developer productivity support
+
 ### Customer support and service delivery
 - knowledge-grounded support
 - response consistency
@@ -226,6 +275,12 @@ Because Kaizor is capability-driven rather than tied to a single department, it 
 - less context switching
 - faster action on information-heavy tasks
 
+### AI-enabled internal platforms
+- internal copilots
+- cross-tool workflow assistants
+- knowledge-driven operating layers
+- organization-specific assistance systems
+
 ### Future domain packs and vertical applications
 Kaizor is also well positioned for domain-specific packaging across industries where context, workflow, trust, and repeated decision-making matter.
 
@@ -238,6 +293,8 @@ Potential opportunity areas include:
 - vulnerability management
 - IT support and helpdesk
 - enterprise knowledge assistants
+- software development support
+- engineering productivity
 - internal operations copilots
 - executive reporting support
 - compliance and governance workflows
@@ -249,6 +306,10 @@ Potential opportunity areas include:
 - field operations support
 - document-heavy professional workflows
 - productivity and team operating systems
+- multimodal assistants for visual and voice-heavy environments
+- machine-learning-assisted decision systems
+- domain-specific expert copilots
+- enterprise orchestration layers across teams and tools
 
 In other words, Kaizor is not limited by one industry.
 It is limited only by whether a workflow suffers from fragmentation, repetition, knowledge loss, or low-trust execution.
@@ -299,17 +360,20 @@ flowchart TB
 
   subgraph G[Kaizor capability areas]
     G1[Conversational intelligence]
-    G2[Knowledge understanding and retrieval]
-    G3[Workflow orchestration]
-    G4[Governed automation]
-    G5[Skills ecosystem]
-    G6[Multilingual interaction]
-    G7[Voice interaction]
-    G8[Computer vision]
-    G9[Memory and adaptive behavior]
-    G10[Learning and improvement]
-    G11[Safety and permissions]
-    G12[Monitoring and runtime flexibility]
+    G2[Programming and technical assistance]
+    G3[Research and analytical support]
+    G4[Knowledge understanding and retrieval]
+    G5[Workflow orchestration]
+    G6[Governed automation]
+    G7[Tool use and operational action]
+    G8[Skills ecosystem]
+    G9[Multilingual interaction]
+    G10[Voice interaction]
+    G11[Computer vision]
+    G12[Memory and adaptive behavior]
+    G13[Learning and machine-learning-driven improvement]
+    G14[Safety and permissions]
+    G15[Monitoring and runtime flexibility]
   end
 ```
 
